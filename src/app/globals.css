@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: var(--font-display), sans-serif;
+  --font-sans: var(--font-sans), sans-serif;
+  --color-brand-red: #F5223A;
+  --color-brand-red-dark: #D4142B;
+  --color-brand-red-light: #FF4D61;
+  --color-dark-bg: #05090D;
+  --color-dark-surface: #0B1218;
+  --color-dark-card: #101820;
+  --color-dark-card-hover: #151D24;
+}
+
+body {
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  letter-spacing: -0.01em;
+}
+
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+/* Full width max container with generous responsive padding */
+.content-container {
+  width: 100%;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .content-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .content-container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+/* Custom subtle noise and glow */
+.red-glow {
+  box-shadow: 0 0 50px -10px rgba(245, 34, 58, 0.35);
+}
+
+.red-glow-sm {
+  box-shadow: 0 0 25px -5px rgba(245, 34, 58, 0.25);
+}
+
+.red-text-glow {
+  text-shadow: 0 0 30px rgba(245, 34, 58, 0.4);
+}
+
+/* Diagonal athletic slash accent line */
+.slash-accent {
+  position: relative;
+}
+.slash-accent::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 48px;
+  height: 3px;
+  background-color: #F5223A;
+  transform: skewX(-20deg);
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #05090D;
+}
+::-webkit-scrollbar-thumb {
+  background: #1C2630;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F5223A;
+}

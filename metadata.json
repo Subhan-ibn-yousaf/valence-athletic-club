@@ -1,0 +1,8 @@
+{
+  "name": "Valence Athletic Club",
+  "description": "Valence Athletic Club is an elite performance fitness sanctuary combining world-class coaching, high-intensity conditioning, advanced strength equipment, and a dedicated athletic community.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

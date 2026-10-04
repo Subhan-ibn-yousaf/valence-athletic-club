@@ -1,6 +1,14 @@
 {
-  "app": {},
-  "appUsingSizeAdjust": false,
+  "app": {
+    "[project]/src/app/page": [
+      "static/media/118b6ed7ac256a99-s.p.3btzg3pbxiu1o.woff2",
+      "static/media/c750adf2ddf22b70-s.p.1j3epi4sx1jkp.woff2",
+      "static/media/5db3af44c16866f3-s.p.2mye7a10bd_rx.woff2",
+      "static/media/5ad4ff46ac72da73-s.p.3octkzoya_hav.woff2",
+      "static/media/1b99372b3eaef0c8-s.p.1gsd1jahc5dg_.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
   "pages": {},
   "pagesUsingSizeAdjust": false
 }
